@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+header {
+  background-image: url(../img/carousel-2.jpg);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+header::after {
+  background-image: url(../img/overlay-bottom.png);
+  bottom: -20px;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 15px;
+  left: 0;
+  z-index: 1;
+}
+header h2 {
+  color: rgb(224, 110, 30);
+  text-transform: uppercase;
+  margin: 30px;
+  word-spacing: 4px;
+  letter-spacing: 5px;
+}
+header ul {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin-top: 30px;
+}
+header a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px 14px;
+  border-radius: 20px;
+  background-color: rgb(181, 84, 14);
+}
+.head {
+  position: absolute;
+  top: 50%;
+}
+h1 {
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 7px;
+}
+.head p {
+  text-transform: uppercase;
+  color: rgb(224, 110, 30);
+  font-size: 2rem;
+  letter-spacing: 10px;
+  margin-left: 15%;
+  margin-top: 2%;
+}
+.head span {
+  color: rgb(224, 110, 30);
+}
+#about h1 {
+  color: rgb(181, 84, 14);
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+#about img {
+  width: 100%;
+}
+#about h2 {
+  color: rgb(181, 84, 14);
+  letter-spacing: 3px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about p {
+  line-height: 1.4;
+  font-size: 1.2rem;
+  color: #333;
+  margin: 10px 0px;
+}
+#about button {
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: #fff;
+  background-color: rgb(181, 84, 14);
+}
+.fre {
+  margin: 20px 0px;
+  display: flex;
+}
+.fresh {
+  margin-top: 150px;
+}
+.leftt {
+  margin-top: 60px;
+}
+
+.fresh i {
+  font-size: 2rem;
+
+  color: rgb(181, 84, 14);
+}
+.fresh h2 {
+  color: rgb(181, 84, 14);
+  text-transform: capitalize;
+}
+.fresh h1 {
+  color: black;
+  font-size: 1.7rem;
+
+  text-transform: capitalize;
+}
+.fresh p {
+  line-height: 1.5;
+  font-size: 1.2rem;
+  text-align: justify;
+}
+
+.menu {
+  margin-top: 100px;
+}
+.menu h2 {
+  letter-spacing: 10px;
+}
+.sss {
+  margin-top: 20px;
+}
+.imgg img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+.conn div {
+  margin-top: 40px;
+}
+.conn h3 {
+  color: rgb(224, 110, 30);
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+}
+.conn p {
+  color: #333;
+  width: 80%;
+  font-size: 1.2rem;
+}
+h2 {
+  margin-bottom: 30px;
+  color: rgb(224, 110, 30);
+}
+section {
+  margin-top: 100px;
+}
+.img {
+  background: linear-gradient(rgba(8, 9, 9, 0.7), rgba(8, 8, 8, 0.7)),
+    url(../img/bg.jpg);
+  min-height: 80vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.img::before {
+  background-image: url(../img/overlay-top.png);
+  top: -1px;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 15px;
+  left: 0;
+  z-index: 1;
+}
+.img::after {
+  background-image: url(../img/overlay-bottom.png);
+  bottom: -1px;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 15px;
+  left: 0;
+  z-index: 1;
+}
+.offer {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  left: 33%;
+  transform: translate(-50px, -50px);
+}
+.offer h1 {
+  color: rgb(224, 110, 30);
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  margin: 10px 0px;
+}
+.offer h3 {
+  color: #fff;
+  font-size: 2.5rem;
+  letter-spacing: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+.offer h4 {
+  color: #fff;
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+.offer input {
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  width: 40%;
+  margin-right: 10px;
+}
+.offer button {
+  padding: 12px;
+  color: #fff;
+  background-color: rgb(224, 110, 30);
+  border-radius: 20px;
+}
+@media (max-width: 512px) {
+  .offer {
+    position: absolute;
+    top: 10%;
+    text-align: center;
+  }
+  .offer input {
+    width: 50%;
+  }
+}
+.test h2 {
+  text-align: center;
+  letter-spacing: 10px;
+}
+.test h1 {
+  text-align: center;
+  font-size: 30px;
+  color: black;
+  font-weight: 600;
+}
+.fff {
+  margin-top: 60px;
+}
+.imggg img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.test1 {
+  margin-top: 20px;
+}
+.test1 h4 {
+  color: rgb(224, 110, 30);
+}
+.test1 p {
+  line-height: 1.5;
+}
+.log {
+  background: linear-gradient(rgba(8, 9, 9, 0.7), rgba(8, 8, 8, 0.7)),
+    url(../img/bg.jpg);
+  min-height: 80vh;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.log::before {
+  background-image: url(../img/overlay-top.png);
+  top: -1px;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 15px;
+  left: 0;
+  z-index: 1;
+}
+.log:after {
+  background-image: url(../img/overlay-bottom.png);
+  bottom: -1px;
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 15px;
+  left: 0;
+  z-index: 1;
+}
+.le,
+.form {
+  margin: 100px 30px;
+}
+.le h1 {
+  color: rgb(224, 110, 30);
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+.le h2 {
+  color: #fff;
+  font-size: 3rem;
+}
+.le p {
+  color: #fff;
+  width: 70%;
+  font-size: 1.2rem;
+}
+.form {
+  border: solid 1px white;
+}
+.form h1 {
+  text-align: center;
+  margin: 10px 0px;
+  color: rgb(224, 110, 30);
+}
+.form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border-color: rgb(224, 110, 30);
+  background-color: transparent;
+  color: #fff;
+}
+.form input::placeholder {
+  color: #fff;
+  font-size: 1.1rem;
+}
+.form button {
+  padding: 10px;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: rgb(224, 110, 30);
+}
+footer {
+  margin-top: 100px;
+  background: linear-gradient(rgba(8, 9, 9, 0.7), rgba(8, 8, 8, 0.7)),
+    url(../img/33.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 50vh;
+}
+footer h4 {
+  color: #fff;
+}
+footer h2 {
+  margin-bottom: 15px;
+}
+footer p {
+  color: #fff;
+  margin-bottom: 2px;
+}
+footer input {
+  width: 60%;
+  padding: 10px;
+}
+footer button {
+  padding: 10px;
+
+  background-color: rgb(224, 110, 30);
+}
+hr {
+  margin-top: 20px;
+}
+.foo {
+  margin-top: 100px;
+}
+.f2 {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.f2 span{
+  color: rgb(224, 110, 30);
+}
+.icon i{
+ font-size: 1.4rem;
+ border: solid 1px wheat;
+ padding: 10px;
+ margin-top: 4px;
+}
+.fa-facebook{
+color: blue;
+}
+.fa-twitter{
+color: lightblue;
+}
+.fa-instagram{
+color: rebeccapurple;
+}
+.fa-google{
+color: red;
+}
+
